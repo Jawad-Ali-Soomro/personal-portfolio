@@ -1,0 +1,27 @@
+/* src/components/MouseTracker.css */
+
+.mouse-tracker {
+  position: fixed;
+  width: 100vw; /* or any width that fits your layout */
+  height: 100vh; /* or any height that fits your layout */
+  overflow: hidden; /* Ensures the follower div doesn't go out of bounds */
+  z-index: 0;
+}
+
+.follower {
+  position: fixed;
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  /* Example of a multilinear gradient */
+  /* box-shadow: 0 0 100px rgb(59 130 246) , 0 0 200px rgb(59 130 246); */
+  border-radius: 50%; /* Ensures a circular shape */
+  pointer-events: none; /* Allows mouse events to pass through */
+  transform: translate(-50%, -50%); /* Center the div based on its own size */
+  background: linear-gradient(
+    45deg,
+    rgb(59 130 246 / 5%),
+    rgb(59 130 246 / 5%)
+  );
+  box-shadow: 0px 0px 100px rgb(59 130 246 / 5%),0px 0px 500px rgb(59 130 246 / 5%);
+  z-index: 0;
+}

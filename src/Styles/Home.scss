@@ -1,0 +1,159 @@
+.home-wrap {
+  .banner {
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    .left {
+      align-items: start;
+      gap: 100px;
+      .top {
+        align-items: start;
+        gap: 20px;
+        color: rgba($color: #fff, $alpha: 0.7);
+        h1 {
+          font-size: 48px;
+          font-weight: 900;
+        }
+        p {
+          max-width: 400px;
+          text-align: justify;
+        }
+      }
+      .navs {
+        ul {
+          align-items: start;
+          gap: 20px;
+          li {
+            font-weight: 600;
+            list-style: none;
+            gap: 20px;
+            cursor: pointer;
+            z-index: 10;
+            color: rgba($color: #fff, $alpha: 0.3);
+            .line {
+              transition: 0.3s;
+              width: 40px;
+              height: 1px;
+              background: rgba($color: #fff, $alpha: 0.2);
+            }
+          }
+          li:hover {
+            color: rgba($color: #fff, $alpha: 1);
+            .line {
+              width: 80px;
+              background: white;
+            }
+          }
+        }
+      }
+      .links {
+        gap: 20px;
+        .link {
+          color: white;
+          font-size: 2rem;
+          z-index: 10;
+        }
+      }
+    }
+    .right {
+      .wrap {
+        gap: 20px;
+        width: 500px;
+        align-items: start;
+        h1 {
+          font-weight: 900;
+          line-height: 20px;
+        }
+        p {
+          margin-top: 30px;
+          font-size: 1rem;
+          max-width: 500px;
+          text-align: justify;
+          color: rgba($color: #fff, $alpha: 0.3);
+          line-height: 25px;
+          span {
+            color: white;
+          }
+        }
+      }
+      .projects-wrap {
+        z-index: 10;
+        ul {
+          align-items: start;
+          gap: 10px;
+          li {
+            margin-top: 10px;
+            align-items: start;
+            gap: 5px;
+            font-size: 85px;
+            font-weight: 900;
+            list-style: none;
+            color: rgba($color: #fff, $alpha: 0.7);
+            cursor: pointer;
+            transition: 0.3s;
+            span {
+              font-size: 0.8rem;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+      .projects-wrap:hover {
+        ul {
+          li {
+            color: rgba($color: #fff, $alpha: 0.3);
+          }
+          li:hover {
+            color: white;
+          }
+        }
+      }
+      .contact-wrap {
+        h1 {
+          letter-spacing: -10px;
+          font-size: 10rem;
+          line-height: 100px;
+        }
+        .link {
+          color: white;
+          text-decoration: none;
+          margin-top: 20px;
+        }
+        .links {
+          gap: 20px;
+          z-index: 10;
+          p {
+            margin-top: 20px;
+          }
+          .link {
+            color: white;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    .left {
+      .top {
+        max-height: 0;
+        overflow: hidden;
+      }
+      .links {
+        max-width: 0;
+        overflow: hidden;
+      }
+      .navs {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+      }
+    }
+  }
+}
