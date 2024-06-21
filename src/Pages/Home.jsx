@@ -110,8 +110,8 @@ const Home = () => {
                 <span>specialist</span>, adept in{" "}
                 <span>backend development</span> and <span>API</span> design.
                 I'm dedicated to creating seamless digital experiences that{" "}
-                <span>push boundaries</span>
-                and exceed expectations
+                <span>push boundaries </span>
+                & exceed expectations
               </p>
               <p>
                 My focus at <span>Pakistan</span> centers on crafting accessible
@@ -126,22 +126,22 @@ const Home = () => {
           ) : tab == 2 ? (
             <div className="projects-wrap wrap lex col">
               <ul className="flex col">
-                <li className="flex col">
+                <Link className="flex link col">
                   Shopy
                   <span>- WEBFLOW DEVELOPMENT</span>
-                </li>
-                <li className="flex col">
+                </Link>
+                <Link className="flex link col">
                   Swift Cart
                   <span>- WEBFLOW DEVELOPMENT</span>
-                </li>
-                <li className="flex col">
+                </Link>
+                <Link className="flex link col">
                   Arthub
                   <span>- WEBFLOW DEVELOPMENT</span>
-                </li>
-                <li className="flex col">
+                </Link>
+                <Link className="flex link col">
                   Cinepro
                   <span>- WEBFLOW DEVELOPMENT</span>
-                </li>
+                </Link>
               </ul>
             </div>
           ) : tab == 3 ? (

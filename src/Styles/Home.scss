@@ -81,7 +81,7 @@
         ul {
           align-items: start;
           gap: 10px;
-          li {
+          .link {
             margin-top: 10px;
             align-items: start;
             gap: 5px;
@@ -91,6 +91,7 @@
             color: rgba($color: #fff, $alpha: 0.7);
             cursor: pointer;
             transition: 0.3s;
+            text-decoration: none;
             span {
               font-size: 0.8rem;
               font-weight: 300;
@@ -100,10 +101,10 @@
       }
       .projects-wrap:hover {
         ul {
-          li {
+          .link {
             color: rgba($color: #fff, $alpha: 0.3);
           }
-          li:hover {
+          .link:hover {
             color: white;
           }
         }
