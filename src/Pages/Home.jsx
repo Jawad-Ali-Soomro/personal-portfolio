@@ -89,7 +89,7 @@ const Home = () => {
                 <Link className="link" target="_blank" to={'https://dev.to/jawadalisoomro'}>
                   <BiLogoDevTo />
                 </Link>
-                <Link className="link" target="_blank">
+                <Link className="link" target="_blank" to={'https://www.instagram.com/dakhanjawadali/'}>
                   <BiLogoInstagram />
                 </Link>
                 <Link className="link" target="_blank">
@@ -162,7 +162,7 @@ const Home = () => {
                 <Link className="link" target="_blank" to={'https://dev.to/jawadalisoomro'}>
                   <BiLogoDevTo />
                 </Link>
-                <Link className="link" target="_blank">
+                <Link className="link" target="_blank" to={'https://www.instagram.com/dakhanjawadali/'}>
                   <BiLogoInstagram />
                 </Link>
                 <Link className="link" target="_blank">
