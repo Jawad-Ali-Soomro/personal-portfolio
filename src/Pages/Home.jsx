@@ -82,22 +82,23 @@ const Home = () => {
             </ul>
           </div>
           <div className="links flex">
-            <Link className="link">
-              <BiLogoGithub />
-            </Link>
-            <Link className="link">
-              <BiLogoDevTo />
-            </Link>
-            <Link className="link">
-              <BiLogoInstagram />
-            </Link>
-            <Link className="link">
-              <BiLogoLinkedin />
-            </Link>
-            <Link className="link">
-              <BiLogoTwitter />
-            </Link>
-          </div>
+                
+                <Link className="link" target="_blank" to={'https://github.com/Jawad-Ali-Soomro'}>
+                  <BiLogoGithub />
+                </Link>
+                <Link className="link" target="_blank" to={'https://dev.to/jawadalisoomro'}>
+                  <BiLogoDevTo />
+                </Link>
+                <Link className="link" target="_blank">
+                  <BiLogoInstagram />
+                </Link>
+                <Link className="link" target="_blank">
+                  <BiLogoLinkedin />
+                </Link>
+                <Link className="link" target="_blank">
+                  <BiLogoTwitter />
+                </Link>
+              </div>
         </div>
         <div className="right flex col">
           {tab == 1 ? (
@@ -126,19 +127,19 @@ const Home = () => {
           ) : tab == 2 ? (
             <div className="projects-wrap wrap lex col">
               <ul className="flex col">
-                <Link className="flex link col">
+                <Link className="flex link col" to={'https://github.com/Jawad-Ali-Soomro/Shopy'}>
                   Shopy
                   <span>- WEBFLOW DEVELOPMENT</span>
                 </Link>
-                <Link className="flex link col">
+                <Link className="flex link col" to={'https://github.com/Jawad-Ali-Soomro/swift-cart'}>
                   Swift Cart
                   <span>- WEBFLOW DEVELOPMENT</span>
                 </Link>
-                <Link className="flex link col">
+                <Link className="flex link col" to={'https://github.com/Jawad-Ali-Soomro/arthub'}>
                   Arthub
                   <span>- WEBFLOW DEVELOPMENT</span>
                 </Link>
-                <Link className="flex link col">
+                <Link className="flex link col" to={'https://github.com/Jawad-Ali-Soomro/CinePro'}>
                   Cinepro
                   <span>- WEBFLOW DEVELOPMENT</span>
                 </Link>
@@ -152,22 +153,22 @@ const Home = () => {
                 <span>website</span> that you can own and <span>maintain</span>{" "}
                 yourself? Get in <span>touch</span>.
               </p>
-              <Link className="link">jawadal829@gmail.com</Link>
+              <Link className="link" target="_blank">jawadal829@gmail.com</Link>
               <div className="links flex">
                 
-                <Link className="link">
+                <Link className="link" target="_blank" to={'https://github.com/Jawad-Ali-Soomro'}>
                   <BiLogoGithub />
                 </Link>
-                <Link className="link">
+                <Link className="link" target="_blank" to={'https://dev.to/jawadalisoomro'}>
                   <BiLogoDevTo />
                 </Link>
-                <Link className="link">
+                <Link className="link" target="_blank">
                   <BiLogoInstagram />
                 </Link>
-                <Link className="link">
+                <Link className="link" target="_blank">
                   <BiLogoLinkedin />
                 </Link>
-                <Link className="link">
+                <Link className="link" target="_blank">
                   <BiLogoTwitter />
                 </Link>
               </div>
